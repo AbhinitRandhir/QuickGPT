@@ -6,3 +6,4 @@ const openai = new OpenAI({
 });
 
 export default openai
+
