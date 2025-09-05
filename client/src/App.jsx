@@ -1,5 +1,3 @@
-
-
 import React, { useState } from 'react'
 import Sidebar from './components/Sidebar'
 import { Route, Routes, useLocation } from 'react-router-dom'
@@ -27,7 +25,7 @@ const App = () => {
         <img
           src={assets.menu_icon}
           alt="menu"
-          className="absolute top-3 left-3 w-8 h-8 cursor-pointer md:hidden dark:invert"
+          className="absolute top-3 left-3 w-8 h-8 cursor-pointer md:hidden not-dark:invert"
           onClick={() => setIsMenuOpen(true)}
         />
       )}
